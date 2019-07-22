@@ -6,7 +6,7 @@ module.exports = {
             resolve: `gatsby-plugin-manifest`,
             options: {
               name: `Sarwin Counseling`,
-              short_name: `Sarwin Counselin`,
+              short_name: `Sarwin Counseling`,
               start_url: `/`,
               background_color: `#00BCD4`,
               theme_color: `#00BCD4`,
@@ -14,7 +14,7 @@ module.exports = {
               icon: `static\images\icon.webp`,
               crossOrigin: `use-credentials`, // `use-credentials` or `anonymous`
             },
-          },
+        },
         `gatsby-plugin-offline`,
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
