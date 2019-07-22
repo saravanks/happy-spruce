@@ -15,7 +15,7 @@ module.exports = {
             },
         },
         `gatsby-plugin-offline`,
-        'gatsby-plugin-preload-link-crossorigin',
+        `gatsby-plugin-preload-link-crossorigin`,
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         {
