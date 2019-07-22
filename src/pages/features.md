@@ -1,43 +1,63 @@
 ---
-title: Features
+title: 'Training '
 sections:
-  - type: contentblock
-    section_id: features
-    title: The Best Features of Your Services
+  - actions: []
+    bg: gray
     component: ContentBlock
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
 
 
-      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      The below mentioned training services will help individuals overcome the
+      present day stress
+       and give them a competitive edge over their peers in the career ahead
 
-      * Ut eu nunc at diam fringilla fringilla eu ut massa.
-
-      * Phasellus ut enim non lorem venenatis rutrum.
+      **For Students**
 
 
-      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
-      sed justo tempor condimentum.
-    image: images/feature1.png
-    bg: gray
-    actions:
-      - label: Free Trial
-        url: /signup
-      - label: View Demo
-        url: '#'
-  - type: ctablock
-    section_id: call-to-action
-    title: This Is Call to Action Block!
-    component: CtaBlock
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Get Started
-        url: '#'
+      * Personality development
+
+      * Study strategies
+
+      * Art & Mental Health Workshop
+
+      * Emotional Management
+
+
+      **For Working & Teaching staff :**
+
+
+      * Classroom Management
+
+      * Emotional management
+
+      * Art &amp; Mental Health Workshop
+
+
+      **For Parents**
+
+
+      * Parenting workshop
+
+      * Emotional Management
+    image: /images/pyschiatrist-certificate-training-in-chennai.webp
+    section_id: Training Element
+    title: Training We Provide
+    type: contentblock
+  - bg: gray
+    component: ContentBlock
+    content: >-
+      Sarwin Counseling in Collaboration with Stella Maris College Holds
+      certificate workshop on child behavior therapy, Remedial Training, Art
+      Therapy and Counseling for Mental Health Professionals and students from
+      the same stream.
+    image: /images/mental-therapy-workshop-in-chennai.webp
+    section_id: Workshop Element
+    title: Certificate Workshop
+    type: contentblock
 menus:
   main:
     title: Features
     weight: 2
 template: features
 ---
+
