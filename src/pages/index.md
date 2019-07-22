@@ -1,94 +1,94 @@
 ---
 title: Home
 sections:
-  - type: heroblock
-    section_id: hero
-    title: This Is A Big Hero Headline
+  - actions:
+      - label: Know More
+        url: /features
     component: HeroBlock
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
-    image: images/hero.png
-    actions:
-      - label: Learn More
-        url: /features
-  - type: featuresblock
-    section_id: features
-    title: Features
+      We are dedicated to provide individualized and comprehensive behavioral
+      health care for all ages through our expertise, quality of service and
+      innovation.
+    image: ''
+    section_id: hero
+    title: ' '
+    type: heroblock
+  - bg: gray
     component: FeaturesBlock
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
-    bg: gray
     featureslist:
-      - title: The Best Feature of Your Services
-        content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
-        image: images/feature1.png
-        actions:
-          - label: Learn More
+      - actions:
+          - label: Know More
             url: /features
-      - title: Awesome Feature of Your Services
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
-        image: images/feature2.png
-        actions:
-          - label: Learn More
+          "Our center provides assessment, therapies and counseling for various
+          difficulties and mental health conditions/even mild mood disturbance."
+        image: /images/children-counseling-in-chennai.webp
+        title: Children and Adolescents
+      - actions:
+          - label: Know More
             url: /features
-      - title: Cool Feature of Your Services
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
-        image: images/feature3.png
-        actions:
-          - label: Learn More
+          Adults not only carry complex responsibilities including work and
+          family but also have significant capacity to change. realising
+          potential and recovery
+        image: /images/adult-counseling-in-chennai.webp
+        title: For Adults
+      - actions:
+          - label: Know More
             url: /features
-  - type: reviewsblock
-    section_id: reviews
-    title: Testimonials
+        content: >-
+          " They affect our children’s mental health and development and how we
+          engage with others in our community. "
+        image: /images/parent-counseling-in-chennai.webp
+        title: FOR FAMILY
+      - content: >-
+          Cognitive development and play skills,sharing functional communication
+          proactivity approaches.
+        image: /images/art-therapy-in-chennai.webp
+        title: SchoolEntry intervention
+    section_id: features
+    subtitle: ''
+    title: 'Our Services '
+    type: featuresblock
+  - bg: white
     component: ReviewsBlock
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales. 
-    bg: white
     reviews:
-      - author: John Doe
-        avatar: images/review1.jpg
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Jane Roe
+      - author: 'Kausalya '
+        avatar: /images/kousalya.webp
+        content: Had a great time spending with young People!
+      - author: 'Stella '
         avatar: images/review2.jpg
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Richard Roe
-        avatar: images/review3.jpg
+          She was very polite and good counsellor for the patients.  We
+          satisfied much and more.. Surely I recommend to all my friends and
+          relatives...Thank you Mam
+      - author: priya
+        avatar: ''
         content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - type: ctablock
-    section_id: call-to-action
-    title: This Is Call To Action Block!
+          intently and correctly identifies the underlying problem. His approach
+          combines both exercises on working with yourself as well as medication
+          . 
+    section_id: reviews
+    subtitle: Hear what our clients are saying about us.
+    title: Testimonials
+    type: reviewsblock
+  - actions:
+      - label: Contact
+        url: /Contact
     component: CtaBlock
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Get Started
-        url: /signup
-  - type: postsblock
+    section_id: call-to-action
+    subtitle: ''
+    title: Contact Us
+    type: ctablock
+  - bg: gray
+    component: PostsBlock
     section_id: recent-posts
     title: Latest Posts
-    component: PostsBlock
-    bg: gray
+    type: postsblock
 menus:
   main:
     title: Home
     weight: 1
 template: home
 ---
+
