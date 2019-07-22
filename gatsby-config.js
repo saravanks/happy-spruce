@@ -2,6 +2,18 @@ module.exports = {
     pathPrefix: '/',
     siteMetadata: require('./site-metadata.json'),
     plugins: [
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+              name: `GatsbyJS`,
+              short_name: `GatsbyJS`,
+              start_url: `/`,
+              background_color: `#00BCD4`,
+              theme_color: `#a2466c`,
+              display: `standalone`,
+            },
+          },
+        `gatsby-plugin-offline`,
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         {
