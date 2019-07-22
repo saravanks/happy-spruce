@@ -26,6 +26,15 @@ module.exports = {
             },
         },
         {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+              name: `images`,
+              path: path.join(__dirname, `static`, `images`),
+            },
+        },
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
+        {
             resolve: `gatsby-plugin-stackbit-static-sass`,
             options: {
                 inputFile: `${__dirname}/src/sass/main.scss`,
