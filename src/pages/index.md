@@ -11,7 +11,7 @@ sections:
       innovation.
     image: ''
     section_id: hero
-    title: ' '
+    title: ''
     type: heroblock
   - bg: gray
     component: FeaturesBlock
