@@ -17,9 +17,9 @@ module.exports = {
               crossOrigin: `anonymous`, // `use-credentials` or `anonymous`
             },
         },
-        `gatsby-plugin-preload-link-crossorigin`,
         `gatsby-plugin-offline`,
         `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-preload-link-crossorigin`,
         `gatsby-source-data`,
         {
             resolve: `gatsby-source-filesystem`,
