@@ -5,8 +5,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-              name: `GatsbyJS`,
-              short_name: `GatsbyJS`,
+              name: `Sarwin Counseling`,
+              short_name: `Sarwin Counselin`,
               start_url: `/`,
               background_color: `#00BCD4`,
               theme_color: `#00BCD4`,
