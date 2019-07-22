@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 module.exports = {
     pathPrefix: '/',
     siteMetadata: require('./site-metadata.json'),
