@@ -56,7 +56,7 @@ sections:
     type: contentblock
 menus:
   main:
-    title: Features
+    title: Training
     weight: 2
 template: features
 ---
