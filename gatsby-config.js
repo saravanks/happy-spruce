@@ -62,5 +62,12 @@ module.exports = {
                 menus: require('./src/data/menus.json'),
             }
         }
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+              // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+              trackingId: "UA-90649024-2",
+            },
+        },
     ]
 };
