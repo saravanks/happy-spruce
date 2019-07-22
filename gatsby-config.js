@@ -9,8 +9,10 @@ module.exports = {
               short_name: `GatsbyJS`,
               start_url: `/`,
               background_color: `#00BCD4`,
-              theme_color: `#a2466c`,
+              theme_color: `#00BCD4`,
               display: `standalone`,
+              icon: `static\images\icon.webp`,
+              crossOrigin: `use-credentials`, // `use-credentials` or `anonymous`
             },
           },
         `gatsby-plugin-offline`,
