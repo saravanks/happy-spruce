@@ -14,7 +14,7 @@ module.exports = {
               theme_color: `#00BCD4`,
               display: `standalone`,
               icon: `static/images/icon.png`,
-              crossOrigin: `use-credentials`, // `use-credentials` or `anonymous`
+              crossOrigin: `anonymous`, // `use-credentials` or `anonymous`
             },
         },
         `gatsby-plugin-preload-link-crossorigin`,
