@@ -71,5 +71,11 @@ module.exports = {
               trackingId: "UA-90649024-2",
             },
         },
+        {
+            resolve: 'gatsby-plugin-html-attributes',
+            options: {
+              lang: 'en'
+            }
+        },
     ]
 };
