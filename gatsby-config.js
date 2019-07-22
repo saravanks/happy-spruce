@@ -3,6 +3,7 @@ const path = require(`path`)
 module.exports = {
     pathPrefix: '/',
     siteMetadata: require('./site-metadata.json'),
+        siteUrl: `https://www.sarwin.in`,
     plugins: [
         {
             resolve: `gatsby-plugin-manifest`,
@@ -21,6 +22,7 @@ module.exports = {
         `gatsby-plugin-offline`,
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        `gatsby-plugin-sitemap`
         {
             resolve: `gatsby-source-filesystem`,
             options: {
